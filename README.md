@@ -1,7 +1,11 @@
+# SilverBullet plug for random pages
 
-# SilverBullet plug for saying hello to the user
+Go to a random page.
 
-A well behaved plug that will greet your users.
+Additonal optional filters:
+
+1. Go to a random page excluding daily notes
+1. Go to a random page containing a given tag
 
 ## Wait, SilverBullet?
 

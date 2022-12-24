@@ -1,0 +1,17 @@
+name: random
+version: 0.1
+imports:
+  - https://get.silverbullet.md/global.plug.json
+functions:
+  randomPage:
+    path: "./random.ts:randomPage"
+    command:
+      name: "Random: Open a random page"
+  randomPageExcludeDaily:
+    path: "./random.ts:randomPageExcludeDaily"
+    command:
+      name: "Random: Open a random page (excluding daily)"
+  randomPageWithTag:
+    path: "./random.ts:randomPageWithTag"
+    command:
+      name: "Random: Open a random page (with tag)"
